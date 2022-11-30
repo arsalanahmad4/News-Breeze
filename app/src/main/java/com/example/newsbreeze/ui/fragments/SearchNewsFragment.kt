@@ -59,7 +59,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
             }
         }
 
-        viewModel.searchNews.observe(viewLifecycleOwner, Observer { response ->
+        viewModel.searchNewsObject.observe(viewLifecycleOwner, Observer { response ->
             when(response) {
                 is Resource.Success -> {
                     hideProgressBar()

@@ -4,6 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -19,11 +20,15 @@ class NewsViewModel(
     val newsRepository: NewsRepository
 ) : ViewModel() {
 
-    val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    private val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    val breakingNewsObject:LiveData<Resource<NewsResponse>>
+    get() = breakingNews
     var breakingNewsPage = 1
     var breakingNewsResponse: NewsResponse? = null
 
-    val searchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    private val searchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    val searchNewsObject:LiveData<Resource<NewsResponse>>
+        get() = searchNews
     var searchNewsPage = 1
     var searchNewsResponse: NewsResponse? = null
     var newSearchQuery:String? = null

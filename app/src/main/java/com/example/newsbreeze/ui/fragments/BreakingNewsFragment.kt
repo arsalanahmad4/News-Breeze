@@ -61,7 +61,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
             )
         }
 
-        viewModel.breakingNews.observe(viewLifecycleOwner, Observer { response ->
+        viewModel.breakingNewsObject.observe(viewLifecycleOwner, Observer { response ->
             when(response) {
                 is Resource.Success -> {
                     hideProgressBar()
