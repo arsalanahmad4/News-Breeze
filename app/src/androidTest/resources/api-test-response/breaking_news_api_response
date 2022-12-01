@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Chris Velazco",
+            "title": "Amazon Kindle Scribe review: Better for reading than writing - The Washington Post",
+            "description": "Amazon's fan-favorite reading gadget got its first major overhaul in years, but its competition is fierce.",
+            "url": "https://www.washingtonpost.com/technology/2022/11/30/amazon-kindle-scribe-review/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QDQU7NMPCWCXVTIOF4JN5NMQXA.jpg&w=1440",
+            "publishedAt": "2022-11-30T16:30:23Z",
+            "content": "Comment on this story\r\nI dont remember anything unless I write it down. Some of you might know the feeling.\r\nThats why gadgets like the new Kindle Scribe are so interesting: Beyond serving up books, … [+7021 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "John Wagner, Mariana Alfaro",
+            "title": "Democrats elect Jeffries as leader; House seeks to avert rail strike - The Washington Post",
+            "description": "The House is scheduled to take up legislation that would write into a law a tentative agreement, brokered by the Biden administration, between the railroads and union leaders, to avert a strike.",
+            "url": "https://www.washingtonpost.com/politics/2022/11/30/house-democrats-jeffries-rail-strike/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2XOV2YB2ZEI63OFPBICOLXB5WY.jpg&w=1440",
+            "publishedAt": "2022-11-30T16:30:00Z",
+            "content": "House Democrats on Wednesday elected Rep. Hakeem Jeffries as their leader, making him the first Black lawmaker to lead a party in Congress.\r\nThe New Yorker succeeds House Speaker Nancy Pelosi (Calif.… [+452 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "David Wright, Alex Rogers",
+            "title": "GOP Sen. Mike Braun files to run for Indiana governor in 2024, setting up open Senate race - CNN",
+            "description": "Republican Sen. Mike Braun filed paperwork on Wednesday to run for governor of Indiana in 2024, setting up an open race for the seat.",
+            "url": "https://www.cnn.com/2022/11/30/politics/mike-braun-governor-indiana-2024/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221130110826-senator-mike-braun-indiana-file-restricted-033022.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-11-30T16:16:00Z",
+            "content": "Republican Sen. Mike Braun filed paperwork on Wednesday to run for governor of Indiana in 2024, setting up an open race for the seat. \r\nBraun, who previously served in the Indiana House, was first el… [+734 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "Lauran Neergaard",
+            "title": "Drug slows Alzheimer's but can it make a real difference? - The Associated Press - en Español",
+            "description": "An experimental Alzheimer’s drug modestly slowed the brain disease’s inevitable worsening — but the anxiously awaited new data leaves unclear how much difference that might make in people’s lives. Japanese drugmaker Eisai and its U.S.",
+            "url": "https://apnews.com/article/science-health-business-986f1d9a46a48a50a6b554a6c2950801",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/6488585933384577b182c167a2c35621/2000.jpeg",
+            "publishedAt": "2022-11-30T16:10:09Z",
+            "content": "An experimental Alzheimers drug modestly slowed the brain diseases inevitable worsening but the anxiously awaited new data leaves unclear how much difference that might make in peoples lives.\r\nJapane… [+5159 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Dani Romero",
+            "title": "Stock market news live updates: Stocks waver ahead of Powell's speech - Yahoo Finance",
+            "description": "U.S. stocks edged higher at Wednesday's session open before giving up gains, continuing a sluggish start to the week as investors digested new economic data ...",
+            "url": "https://finance.yahoo.com/news/stock-market-news-live-updates-november-30-2022-130006947.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Ie0xQgqb_Zyf0RLFmwszRA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-11/c22ed100-70ab-11ed-b6ff-25bb5285d073",
+            "publishedAt": "2022-11-30T15:25:59Z",
+            "content": "U.S. stocks edged higher at Wednesday's session open before giving up gains, continuing a sluggish start to the week as investors digested new economic data and awaited comments from Federal Reserve … [+4848 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Alicia Wallace",
+            "title": "The number of available jobs in the US fell in October - CNN",
+            "description": "The number of job openings in the United States dropped in October, but the labor market still remains historically tight despite the Federal Reserve's efforts to cool demand and bring down inflation.",
+            "url": "https://www.cnn.com/2022/11/30/economy/jolts-job-openings-layoffs-october/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221129152508-us-work-commuters-labor-market.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-11-30T15:19:00Z",
+            "content": "MinneapolisCNN Business\r\n  — \r\nThe number of job openings in the United States droppedin October, but the labor market still remains historically tight despitethe Federal Reserves efforts to cool dem… [+1192 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": null,
+            "title": "World Cup 2022 live updates: Tunisia leads France in second half - FOX Sports",
+            "description": "The 2022 FIFA World Cup continues Wednesday with Group D action, as Tunisia takes on France. Here are the top plays!",
+            "url": "https://www.foxsports.com/stories/soccer/world-cup-2022-top-plays-tunisia-vs-france",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2022/11/1408/814/11.29.22_WCTopPlays_TUNFRA_Horizontal.jpg?ve=1&tl=1",
+            "publishedAt": "2022-11-30T15:08:45Z",
+            "content": "The 2022 FIFA World Cup\r\n continues Wednesday with Group D at the forefront, as Tunisia (0-1-1) takes on France (2-0-0) at Education City Stadium in Al Rayyan, Qatar, and we've got you covered with a… [+1815 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Eric Levenson, Veronica Miracle",
+            "title": "Idaho State Police adds patrols to university campus ahead of vigil for four students killed in unsolved stabbings - CNN",
+            "description": "Idaho State Police has added four campus patrols and 14 patrols for the general community as the University of Idaho prepares to host a vigil Wednesday night for the four students fatally stabbed earlier this month.",
+            "url": "https://www.cnn.com/2022/11/30/us/idaho-university-stabbing-vigil/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221122210824-01-idaho-murder-cnn.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-11-30T14:44:00Z",
+            "content": "Idaho State Police has added four campus patrols and 14 patrols for the general community as the University of Idaho prepares to host a vigil Wednesday night for the four students fatally stabbed ear… [+4836 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Buckingham Palace aide resigns over remarks to black charity boss - BBC",
+            "description": "A member of the Royal Household steps down over remarks at a reception hosted by the Queen Consort.",
+            "url": "https://www.bbc.com/news/uk-63810468",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/DA60/production/_126640955_mediaitem126640954.jpg",
+            "publishedAt": "2022-11-30T14:10:52Z",
+            "content": "A Buckingham Palace household member has apologised and resigned after she repeatedly asked a black charity boss where she was \"really from\".\r\nNgozi Fulani, the head of a domestic abuse charity, was … [+3102 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Raja Razek, Drew Iden, Barbara MacDonald",
+            "title": "A newly unsealed affidavit details the clues that led investigators to the suspect in Delphi teen girl killings - CNN",
+            "description": "A .40 caliber unspent round that was found near the bodies of two teen Indiana girls was tied to suspect Richard Allen, who was arrested last month in connection with the killings, according to a probable cause affidavit.",
+            "url": "https://www.cnn.com/2022/11/29/us/delphi-teen-girls-killing-probable-cause-affidavit/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221129154606-delphi-murders-memorial-file.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-11-30T14:07:00Z",
+            "content": "A .40 caliber unspent round that was found near the bodies of two teen Indiana girls was tied to suspect Richard Allen, who was arrested last month in connection with the killings, according to a pro… [+3610 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Rong-Gong Lin II, Luke Money",
+            "title": "COVID hospitalization rates in babies as bad as for seniors amid Omicron wave, study shows - Yahoo News",
+            "description": "The findings, published by the U.S. Centers for Disease Control and Prevention, show that COVID-19 can still cause severe and fatal outcomes in children too ...",
+            "url": "https://news.yahoo.com/covid-hospitalization-rates-babies-bad-140059141.html",
+            "urlToImage": "https://media.zenfs.com/en/la_times_articles_853/a04cc90be862f187666e9b93763b9711",
+            "publishedAt": "2022-11-30T14:00:59Z",
+            "content": "Nurse Kaitlyn Read checks on IV pumps treating a COVID-19 patient at Rady Children's Hospital in San Diego. (Irfan Khan / Los Angeles Times)\r\nInfants younger than 6 months had the same rate of hospit… [+2407 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rolling Stone"
+            },
+            "author": "Charisma Madarang",
+            "title": "How Trump Got Trolled by a Couple of Fascists - Rolling Stone",
+            "description": "Milo Yiannopoulos claimed he was “the architect” of the plan to have Nick Fuentes slip into the dinner with Trump and Kanye, NBC reports",
+            "url": "https://www.rollingstone.com/politics/politics-news/donald-trump-kanye-west-nick-fuentes-mar-a-lago-dinner-1234638552/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2022/11/Donald-Trump-West-Fuentes-Dinner.jpg?w=1600&h=900&crop=1",
+            "publishedAt": "2022-11-30T13:45:28Z",
+            "content": "The Trump dinner debacle at Mar-a-Lago may have been an epically public troll, according to a report by NBC News. \r\nFormer president Donald Trump had planned for a private dinner with Kanye West, who… [+6310 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Billboard"
+            },
+            "author": "Billboard Staff",
+            "title": "How to Find Your Spotify Wrapped 2022 - Billboard",
+            "description": "We're here to help you find your Spotify Wrapped roundup this year.",
+            "url": "https://www.billboard.com/music/music-news/spotify-wrapped-2022-where-to-find-1235178502/",
+            "urlToImage": "https://www.billboard.com/wp-content/uploads/2021/09/spotify-logo-billboard-1548-1630610214.jpg?w=1024",
+            "publishedAt": "2022-11-30T13:35:49Z",
+            "content": "‘Tis the season for Spotify Wrapped, a.k.a. the day of the year where you find out your music listening habits of 2022.\r\nOn Wednesday (Nov. 30) the streaming service unveiled its annual colorful, Ins… [+2086 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Lee Brown",
+            "title": "China vows to 'crack down' as protesters clash with riot cops in hazmat suits - New York Post ",
+            "description": "Communist Party leaders gave the ominous warning without directly mentioning the country-wide rallies, the largest show of dissent in the 33 years since protests in Tiananmen Square ended in horror…",
+            "url": "https://nypost.com/2022/11/30/china-vows-to-resolutely-crack-down-as-protests-continue/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/11/chinese-protesters-clash-hazmat-suit-cops-comp.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2022-11-30T13:27:00Z",
+            "content": "China threatened to resolutely crack down” on “hostile forces” as historic protests continued overnight — including wild street battles with riot cops clad in hazmat suits.\r\nCommunist Party leaders g… [+4448 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Foxweather.com"
+            },
+            "author": "Angeli Gabriel, Heather Brinkmann, Chris Oberholtz",
+            "title": "See tornadoes rip through South, damaging churches and destroying homes - Fox Weather ",
+            "description": "Severe storms swept across the South on Tuesday evening as numerous strong, long-track tornadoes, destructive hail, damaging wind and flash flooding threatened the region.",
+            "url": "https://www.foxweather.com/extreme-weather/tornadoes-mississippi-photos-videos",
+            "urlToImage": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2022/11/1024/512/download-2.jpeg?ve=1&tl=1",
+            "publishedAt": "2022-11-30T13:20:08Z",
+            "content": "Severe storms swept across the South on Tuesday evening as numerous strong, long-track tornadoes, destructive hail, damaging wind and flash flooding threatened the region. The event forced government… [+2685 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "Prisco's Week 13 NFL picks: Chiefs get revenge on Bengals in one-point thriller; 49ers cool off Tua's Dolphins - CBS Sports",
+            "description": "Pete Prisco reveals all of his Week 13 NFL picks, including Deshaun Watson getting a win in his return",
+            "url": "https://www.cbssports.com/nfl/news/priscos-week-13-nfl-picks-chiefs-get-revenge-on-bengals-in-one-point-thriller-49ers-cool-off-tuas-dolphins/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/11/29/833d4d68-d7a9-461b-bfba-1d6e29d93271/thumbnail/1200x675/5bc4092476175ca83ea55540225a5ffb/kelce-jpeg.jpg",
+            "publishedAt": "2022-11-30T13:18:00Z",
+            "content": "The trifecta almost came through last week.\r\nI went 11-5 straight up, 3-2-1 with my best bets as part of the Pick Six Podcast, but went 8-8 with my CBSSports.com expert picks. Why couldn't the Packer… [+6686 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Brandy McDonnell, USA TODAY",
+            "title": "Jake Flint, Oklahoma country singer, dies hours after wedding - USA TODAY",
+            "description": "Jake Flint's publicist, Clif Doyal, says the artist died in his sleep following his wedding on Saturday. Tributes have poured in honoring his life.",
+            "url": "https://www.usatoday.com/story/entertainment/music/2022/11/30/jake-flint-death-oklahoma-red-dirt-country-singer/10801854002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2022/11/28/NOKL/456ec373-cfad-4c63-93b2-6d4e7160a52e-jake_flint_by_nathan_poppe.jpg?auto=webp&crop=2047,1152,x0,y166&format=pjpg&width=1200",
+            "publishedAt": "2022-11-30T13:15:22Z",
+            "content": "Jake Flint, a country singer-songwriter based in Oklahoma, died Sunday hours after his wedding. He was 37. \r\nFlint exchanged wedding vows with Brenda Flint Saturday during a rainy ceremony in Oklahom… [+3466 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Ryan Gaydos",
+            "title": "World Cup 2022: Christian Pulisic gets injury update as Netherlands match looms - Fox News",
+            "description": "Christian Pulisic delivered the go-ahead goal for the U.S. in their win over Iran in the World Cup on Tuesday, but it came at a brutal price.",
+            "url": "https://www.foxnews.com/sports/world-cup-2022-christian-pulisic-gets-injury-update-netherlands-match-looms",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/11/Christian-Pulisic11.jpg",
+            "publishedAt": "2022-11-30T13:10:00Z",
+            "content": "Christian Pulisic became an American soccer icon on Tuesday when his first-half goal against Iran helped lift the U.S. to the knockout stage of the World Cup; but it came with a brutal price.\r\nPulisi… [+2784 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Andrew Cunningham",
+            "title": "Review: Intel’s “Raptor Canyon” NUC is a compact gaming PC without the stress - Ars Technica",
+            "description": "Building your own can be considerably cheaper, but DIY-ing isn't always easy.",
+            "url": "https://arstechnica.com/gadgets/2022/11/review-intels-raptor-canyon-nuc-is-a-compact-gaming-pc-without-the-stress/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/11/IMG_0687-760x380.jpeg",
+            "publishedAt": "2022-11-30T12:00:46Z",
+            "content": "Enlarge/ Intel's new \"Raptor Canyon\" NUC Extreme (rear) is a lot larger but also a lot more capable than previous NUC Extreme boxes (front). \r\n29 with 0 posters participating\r\nIntel's NUC (Next Unit … [+4336 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Diana Olick",
+            "title": "Mortgage rates fall for the third straight week, but demand still drops further - CNBC",
+            "description": "Mortgage rates continue to ease, but demand is not following, as there are few who can benefit from a refinance, and homebuyers are still facing high prices.",
+            "url": "https://www.cnbc.com/2022/11/30/mortgage-rates-fall-for-the-third-straight-week-but-demand-still-drops-further.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107158663-1669760807330-gettyimages-1437304137-bzrate22092473055.jpeg?v=1669809601&w=1920&h=1080",
+            "publishedAt": "2022-11-30T12:00:01Z",
+            "content": "Mortgage rates soared over 7% just a month ago, but since then they have fallen more than half a percentage point. Still, mortgage loan application volume decreased 0.8% last week compared with the p… [+1952 chars]"
+        }
+    ]
+}

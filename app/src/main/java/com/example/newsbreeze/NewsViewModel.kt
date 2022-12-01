@@ -17,7 +17,7 @@ import retrofit2.Response
 import java.io.IOException
 
 class NewsViewModel(
-    val newsRepository: NewsRepository
+    private val newsRepository: NewsRepository
 ) : ViewModel() {
 
     private val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
