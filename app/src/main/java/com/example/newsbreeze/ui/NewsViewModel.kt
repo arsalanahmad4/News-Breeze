@@ -1,4 +1,4 @@
-package com.example.newsbreeze
+package com.example.newsbreeze.ui
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -13,6 +13,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.example.newsbreeze.NewsApplication
 import com.example.newsbreeze.models.Article
 import com.example.newsbreeze.models.NewsResponse
 import com.example.newsbreeze.repository.NewsRepository

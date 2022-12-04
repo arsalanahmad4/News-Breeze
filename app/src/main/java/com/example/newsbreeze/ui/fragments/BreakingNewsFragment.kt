@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.newsbreeze.NewsViewModel
+import com.example.newsbreeze.ui.NewsViewModel
 import com.example.newsbreeze.R
 import com.example.newsbreeze.adapters.NewsAdapter
 import com.example.newsbreeze.ui.NewsBreezeActivity

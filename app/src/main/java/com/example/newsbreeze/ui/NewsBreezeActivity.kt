@@ -3,8 +3,6 @@ package com.example.newsbreeze.ui
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.example.newsbreeze.NewsViewModel
-import com.example.newsbreeze.NewsViewModelProviderFactory
 import com.example.newsbreeze.R
 import com.example.newsbreeze.db.ArticleDatabase
 import com.example.newsbreeze.repository.NewsRepository

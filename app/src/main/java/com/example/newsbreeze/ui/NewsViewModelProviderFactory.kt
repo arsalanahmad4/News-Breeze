@@ -1,4 +1,4 @@
-package com.example.newsbreeze
+package com.example.newsbreeze.ui
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
