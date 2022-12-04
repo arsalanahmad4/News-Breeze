@@ -8,7 +8,7 @@ import java.io.InputStreamReader
 
 open class AssetReaderUtil {
     companion object {
-        fun asset(context: Context, assetPath: String): String {
+        fun asset(assetPath: String): String {
             try {
                 val inputStream = (InstrumentationRegistry.getInstrumentation().targetContext
                     .applicationContext).classLoader.getResourceAsStream("api-test-response/$assetPath")

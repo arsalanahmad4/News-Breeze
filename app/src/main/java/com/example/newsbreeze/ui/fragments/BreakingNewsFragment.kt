@@ -109,8 +109,8 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
             val shouldPaginate = isNoErrors && isNotLoadingAndNotLastPage && isAtLastItem && isNotAtBeginning &&
                     isTotalMoreThanVisible && isScrolling
             if(shouldPaginate) {
-                //viewModel.getBreakingNews("us")
-                //isScrolling = false
+                viewModel.getBreakingNews("in")
+                isScrolling = false
             }
         }
 
@@ -124,10 +124,12 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
 
     private fun hideProgressBar() {
         paginationProgressBar.visibility = View.INVISIBLE
+        isLoading =false
     }
 
     private fun showProgressBar() {
         paginationProgressBar.visibility = View.VISIBLE
+        isLoading = true
     }
 
     private fun setupRecyclerView() {

@@ -40,7 +40,6 @@ class BreakingNewsFragmentTest : MockedAPITest(){
             MockResponse().setResponseCode(200)
                 .setBody(
                     AssetReaderUtil.asset(
-                        ApplicationProvider.getApplicationContext(),
                         "breaking_news_api_response"
                     )
                 )
@@ -59,7 +58,6 @@ class BreakingNewsFragmentTest : MockedAPITest(){
             MockResponse().setResponseCode(400)
                 .setBody(
                     AssetReaderUtil.asset(
-                        ApplicationProvider.getApplicationContext(),
                         "token-invalid"
                     )
                 )
