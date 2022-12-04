@@ -39,7 +39,6 @@ Kotlin, Java , Jetpack Compose
 Unit testing liveData response
 
 
-![Logo]()
 
 
 ## Screenshots
