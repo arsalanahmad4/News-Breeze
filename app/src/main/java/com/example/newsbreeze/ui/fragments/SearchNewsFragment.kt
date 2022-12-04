@@ -70,6 +70,11 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
                 is Resource.Error -> {
                     hideProgressBar()
                     response.message?.let { message ->
+                        if(message =="No internet connection"){
+                            Snackbar.make(view, message, Snackbar.LENGTH_LONG).apply {
+                                show()
+                            }
+                        }
                         Log.e(TAG, "An error occured: $message")
                     }
                 }
