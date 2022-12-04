@@ -1,5 +1,6 @@
 package com.example.newsbreeze
 
+import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
@@ -132,6 +133,7 @@ class NewsViewModel(
         }
     }
 
+    @SuppressLint("ObsoleteSdkInt")
     private fun hasInternetConnection() : Boolean{
         val connectivityManager = getApplication<NewsApplication>().getSystemService(
             Context.CONNECTIVITY_SERVICE
