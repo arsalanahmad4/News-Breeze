@@ -5,7 +5,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.example.newsbreeze.NewsViewModel
+import com.example.newsbreeze.ui.NewsViewModel
 import com.example.newsbreeze.R
 import com.example.newsbreeze.ui.NewsBreezeActivity
 import com.google.android.material.snackbar.Snackbar

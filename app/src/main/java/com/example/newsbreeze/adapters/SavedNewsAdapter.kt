@@ -3,15 +3,12 @@ package com.example.newsbreeze.adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.newsbreeze.R
 import com.example.newsbreeze.models.Article
-import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.item_article_preview.view.*
 import kotlinx.android.synthetic.main.item_article_saved_preview.view.*
 
 class SavedNewsAdapter : RecyclerView.Adapter<SavedNewsAdapter.ArticleViewHolder>() {
@@ -53,7 +50,7 @@ class SavedNewsAdapter : RecyclerView.Adapter<SavedNewsAdapter.ArticleViewHolder
         val article = differ.currentList[position]
         holder.itemView.apply {
            Glide.with(this).load(article.urlToImage).into(imageView)
-            tvTitletext.text = "#"+article.source?.name
+            tvTitleText.text = "#"+article.source?.name
             tvTitleDesc.text = article.title
             tvTime.text = article.publishedAt?.subSequence(0, 10)
             tvAuthor.text = article.author

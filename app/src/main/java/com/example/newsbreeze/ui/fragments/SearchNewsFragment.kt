@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.newsbreeze.NewsViewModel
+import com.example.newsbreeze.ui.NewsViewModel
 import com.example.newsbreeze.R
 import com.example.newsbreeze.adapters.NewsAdapter
 import com.example.newsbreeze.ui.NewsBreezeActivity
@@ -59,7 +59,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
             }
         }
 
-        viewModel.searchNews.observe(viewLifecycleOwner, Observer { response ->
+        viewModel.searchNewsObject.observe(viewLifecycleOwner, Observer { response ->
             when(response) {
                 is Resource.Success -> {
                     hideProgressBar()
@@ -70,6 +70,11 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
                 is Resource.Error -> {
                     hideProgressBar()
                     response.message?.let { message ->
+                        if(message =="No internet connection"){
+                            Snackbar.make(view, message, Snackbar.LENGTH_LONG).apply {
+                                show()
+                            }
+                        }
                         Log.e(TAG, "An error occured: $message")
                     }
                 }

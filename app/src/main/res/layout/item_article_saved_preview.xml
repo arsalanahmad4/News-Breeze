@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="12dp">
+    android:padding="12dp"
+    android:background="@color/news_bg_color_grey">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="140dp"
@@ -14,18 +15,19 @@
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="centerCrop"
         tools:srcCompat="@tools:sample/avatars"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginEnd="8dp"
+        app:shapeAppearanceOverlay="@style/style_rounded_image_view"/>
 
     <TextView
-        android:id="@+id/tvTitletext"
+        android:id="@+id/tvTitleText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        tools:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/tvTitleDesc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         android:layout_marginBottom="4dp"
-        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
         android:maxLines="1"
         android:textColor="@color/light_green"/>
 
@@ -33,37 +35,38 @@
         android:id="@+id/tvTitleDesc"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        tools:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         android:maxLines="2"
+        android:ellipsize="end"
         android:textStyle="bold"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
-        android:layout_marginLeft="4dp"/>
+        android:layout_marginStart="4dp"/>
 
     <TextView
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        tools:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/tvTitleDesc"
         android:layout_marginTop="4dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="4dp"/>
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="4dp"/>
 
     <TextView
         android:id="@+id/tvAuthor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="TextView"
+        android:maxLines="1"
+        tools:text="TextView"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvTime"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitleDesc"
-        android:maxLines="1"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleDesc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

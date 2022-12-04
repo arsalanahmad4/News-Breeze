@@ -1,12 +1,19 @@
-package com.example.newsbreeze
+package com.example.newsbreeze.ui
 
+import android.annotation.SuppressLint
+import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
-import android.net.NetworkCapabilities
+import android.net.ConnectivityManager.TYPE_ETHERNET
+import android.net.ConnectivityManager.TYPE_WIFI
+import android.net.NetworkCapabilities.*
 import android.os.Build
+import android.provider.ContactsContract.CommonDataKinds.Email.TYPE_MOBILE
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.newsbreeze.NewsApplication
 import com.example.newsbreeze.models.Article
 import com.example.newsbreeze.models.NewsResponse
 import com.example.newsbreeze.repository.NewsRepository
@@ -16,21 +23,26 @@ import retrofit2.Response
 import java.io.IOException
 
 class NewsViewModel(
-    val newsRepository: NewsRepository
-) : ViewModel() {
+    app:Application,
+    private val newsRepository: NewsRepository
+) : AndroidViewModel(app) {
 
-    val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    private val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    val breakingNewsObject:LiveData<Resource<NewsResponse>>
+    get() = breakingNews
     var breakingNewsPage = 1
     var breakingNewsResponse: NewsResponse? = null
 
-    val searchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    private val searchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
+    val searchNewsObject:LiveData<Resource<NewsResponse>>
+        get() = searchNews
     var searchNewsPage = 1
     var searchNewsResponse: NewsResponse? = null
     var newSearchQuery:String? = null
     var oldSearchQuery:String? = null
 
     init {
-        getBreakingNews("us")
+        getBreakingNews("in")
     }
 
     fun getBreakingNews(countryCode: String) = viewModelScope.launch {
@@ -122,8 +134,31 @@ class NewsViewModel(
         }
     }
 
+    @SuppressLint("ObsoleteSdkInt")
     private fun hasInternetConnection() : Boolean{
-        return true
+        val connectivityManager = getApplication<NewsApplication>().getSystemService(
+            Context.CONNECTIVITY_SERVICE
+        ) as ConnectivityManager
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            val activeNetwork = connectivityManager.activeNetwork ?: return false
+            val capabilities = connectivityManager.getNetworkCapabilities(activeNetwork) ?: return false
+            return when {
+                capabilities.hasTransport(TRANSPORT_WIFI) -> true
+                capabilities.hasTransport(TRANSPORT_CELLULAR) -> true
+                capabilities.hasTransport(TRANSPORT_ETHERNET) -> true
+                else -> false
+            }
+        } else {
+            connectivityManager.activeNetworkInfo?.run {
+                return when(type) {
+                    TYPE_WIFI -> true
+                    TYPE_MOBILE -> true
+                    TYPE_ETHERNET -> true
+                    else -> false
+                }
+            }
+        }
+        return false
     }
 
 

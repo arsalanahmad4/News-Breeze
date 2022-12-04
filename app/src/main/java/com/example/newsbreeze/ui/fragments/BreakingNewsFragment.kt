@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.newsbreeze.NewsViewModel
+import com.example.newsbreeze.ui.NewsViewModel
 import com.example.newsbreeze.R
 import com.example.newsbreeze.adapters.NewsAdapter
 import com.example.newsbreeze.ui.NewsBreezeActivity
@@ -61,7 +61,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
             )
         }
 
-        viewModel.breakingNews.observe(viewLifecycleOwner, Observer { response ->
+        viewModel.breakingNewsObject.observe(viewLifecycleOwner, Observer { response ->
             when(response) {
                 is Resource.Success -> {
                     hideProgressBar()
@@ -77,6 +77,11 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
                 is Resource.Error -> {
                     hideProgressBar()
                     response.message?.let { message ->
+                        if(message =="No internet connection"){
+                            Snackbar.make(view, message, Snackbar.LENGTH_LONG).apply {
+                                show()
+                            }
+                        }
                         Log.e(TAG, "An error occured: $message")
                     }
                 }
@@ -109,8 +114,8 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
             val shouldPaginate = isNoErrors && isNotLoadingAndNotLastPage && isAtLastItem && isNotAtBeginning &&
                     isTotalMoreThanVisible && isScrolling
             if(shouldPaginate) {
-                //viewModel.getBreakingNews("us")
-                //isScrolling = false
+                viewModel.getBreakingNews("in")
+                isScrolling = false
             }
         }
 
@@ -124,10 +129,12 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news){
 
     private fun hideProgressBar() {
         paginationProgressBar.visibility = View.INVISIBLE
+        isLoading =false
     }
 
     private fun showProgressBar() {
         paginationProgressBar.visibility = View.VISIBLE
+        isLoading = true
     }
 
     private fun setupRecyclerView() {

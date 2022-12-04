@@ -36,13 +36,14 @@
         android:drawableStart="@drawable/ic_search"
         android:drawablePadding="8dp"
         android:gravity="center_vertical"
-        android:padding="8dp"
+        android:padding="12dp"
         android:textSize="16sp"
         android:text="Search News"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableEnd="@drawable/ic_search_desc"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
